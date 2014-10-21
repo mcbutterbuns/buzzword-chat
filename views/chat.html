@@ -1,0 +1,17 @@
+
+	<div class="row">
+		<div class="panel panel-default">
+			<div class="panel-body">
+				<chatroom logs="transcript"></chatroom>
+			</div>
+		</div>
+	</div>
+	<div class="row">
+		<strong>{{username}}</strong>
+		<div class="form-group">
+			<input class="form-control" type="text" ng-model="message" size="30" placeholder="Go ahead, say something.">
+		</div>
+		<div class="form-group">
+			<input class="btn btn-primary" type="button" value="Submit" ng-click="sendMessage(message)">
+		</div>
+	</div>

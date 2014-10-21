@@ -1,0 +1,16 @@
+{
+  "name": "AngularChat",
+  "version": "1.0.0",
+  "description": "Simple chat client written in AngularJS/Node/SocketIO",
+  "main": "app.js",
+  "dependencies": {
+    "express": "^4.9.7",
+    "socket.io": "^1.1.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jonathan Broderick",
+  "license": "ISC"
+}

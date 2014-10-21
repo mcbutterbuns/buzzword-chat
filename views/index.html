@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en-us" ng-app="chat">
+<head>
+	<meta charset="utf-8">
+	<title>index.html</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<script src="/angular/angular.min.js"></script>
+	<script src="/angular-route/angular-route.min.js"></script>
+	<script src="/angular-bootstrap/ui-bootstrap-tpls.min.js"></script>
+	<script src="/react/react.js"></script>
+	<script src="/ngReact/ngReact.js"></script>
+	<script src="/momentjs/moment.js"></script>
+
+
+	<script src="//localhost:8001/socket.io/socket.io.js"></script>
+	<script src="/scripts.js"></script>
+	<script src="/react_components.js"></script>
+	<link href="/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+	<link href="/bootstrap-material-design/dist/css/material.min.css" rel="stylesheet" />
+	<link href="/styles.css" rel="stylesheet" />
+</head>
+<body>
+
+	<div class="container">
+		<div ng-view></div>
+	</div>
+
+</body>
+</html>
